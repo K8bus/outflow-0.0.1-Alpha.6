@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "outflow",
+	"version": "0.0.1-Alpha.6",
+	"name": "Outflow",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/outflow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.k8bus.outflow.Outflow"
+		],
+		"client": [
+			"pl.k8bus.client.OutflowClient"
+		],
+		"fabric-datagen": [
+			"pl.k8bus.client.OutflowDataGenerator"
+		]
+	},
+	"accessWidener": "outflow.accesswidener",
+	"mixins": [
+		"outflow.mixins.json",
+		{
+			"config": "outflow.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

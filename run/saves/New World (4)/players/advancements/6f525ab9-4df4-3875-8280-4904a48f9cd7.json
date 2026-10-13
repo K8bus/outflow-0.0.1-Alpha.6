@@ -1,0 +1,89 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-08-17 14:22:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cold_ocean": "2026-08-17 14:23:08 +0200",
+      "minecraft:flower_forest": "2026-08-17 14:25:27 +0200",
+      "minecraft:snowy_slopes": "2026-08-17 14:25:14 +0200",
+      "minecraft:forest": "2026-08-17 14:23:07 +0200",
+      "minecraft:taiga": "2026-08-17 14:22:37 +0200",
+      "minecraft:river": "2026-08-17 14:27:07 +0200",
+      "minecraft:stony_shore": "2026-08-17 14:23:21 +0200",
+      "minecraft:snowy_taiga": "2026-08-17 14:31:40 +0200",
+      "minecraft:frozen_peaks": "2026-08-17 14:26:48 +0200",
+      "minecraft:cherry_grove": "2026-08-17 14:26:55 +0200",
+      "minecraft:sunflower_plains": "2026-08-17 14:24:52 +0200",
+      "minecraft:grove": "2026-08-17 14:27:14 +0200",
+      "minecraft:meadow": "2026-08-17 14:25:34 +0200",
+      "minecraft:plains": "2026-08-17 14:23:23 +0200",
+      "minecraft:jagged_peaks": "2026-08-17 14:27:17 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-08-17 14:23:10 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4903
+}

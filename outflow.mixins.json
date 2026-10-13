@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "pl.k8bus.outflow.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"CarvingContextMixin",
+		"ExampleMixin",
+		"LazyXZConditionAccessor",
+		"SteepSlopeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

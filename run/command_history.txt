@@ -1,0 +1,14 @@
+/locate biome minecraft:stony_peaks
+/tp @s -1123 152 1413
+/locate biome minecraft:meadow
+/tp @s 2191 137 1266
+/locate biome minecraft:stony_peaks
+/tp @s 6126 158 -128
+/locate biome minecraft:stony_peaks
+/tp @s -3392 160 -2923
+/locate biome minecraft:meadow
+/tp @s -846 156 356
+/locate biome #c:is_mountain
+/locate biome #c:is_mountain/peak
+/tp @s -2474 167 1866
+/time set day
