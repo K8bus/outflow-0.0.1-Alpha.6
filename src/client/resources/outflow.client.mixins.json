@@ -1,10 +1,9 @@
 {
 	"required": true,
-	"package": "pl.k8bus.client.mixin",
+	"package": "com.k8bus.outflow.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin",
-		"LevelLoadingScreenMixin"
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

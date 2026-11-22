@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
 	"id": "outflow",
-	"version": "0.0.1-Alpha.6",
+	"version": "${version}",
 	"name": "Outflow",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A complete overhaul of Minecraft hydrology and terrain surfaces. Outflow unlocks lake generation at any altitude (breaking the hardcoded Y=63 limit) with smooth bathymetry, and includes a built-in fix for steep surface rules (MC-258859) to generate realistic stone cliffs instead of dirt stairs.",
 	"authors": [
-		"Me!"
+		"K8bus"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "ARR",
+	"license": "CC0-1.0",
 	"icon": "assets/outflow/icon.png",
 	"environment": "*",
+	"accessWidener": "outflow.accesswidener",
 	"entrypoints": {
 		"main": [
-			"pl.k8bus.outflow.Outflow"
+			"com.k8bus.outflow.Outflow"
 		],
 		"client": [
-			"pl.k8bus.client.OutflowClient"
+			"com.k8bus.outflow.client.OutflowClient"
 		],
 		"fabric-datagen": [
-			"pl.k8bus.client.OutflowDataGenerator"
+			"com.k8bus.outflow.client.OutflowDataGenerator"
 		]
 	},
-	"accessWidener": "outflow.accesswidener",
 	"mixins": [
 		"outflow.mixins.json",
 		{
@@ -34,8 +34,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
